@@ -20,4 +20,7 @@
       1. multiple-choice: ```sh run_swag_roberta_dc.sh x```
       2. question-answering: ```sh run_qa_womax_dc.sh x``` and ```sh run_qa_xlnet_dc.sh x```
       3. text-classification: ```sh run_dc.sh x```
-3. 
+3. Go to directory ```plot_script```, change the file path to the latest.
+4. run ```python3 plot_figure_10_a_d.py ``` to get figure 10.
+5. run ```python3 plot_figure_11.py``` to get figure 11.
+
