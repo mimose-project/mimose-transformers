@@ -21,5 +21,6 @@ python3 run_swag.py \
   --per_device_train_batch_size 16 \
   --dynamic_checkpoint \
   --warmup_iters 10 \
+  --memory_buffer 0.8 \
   --memory_threshold $1 \
   --overwrite_output_dir 2>&1 | tee train_log/log.train_dc$1_roberta.$T

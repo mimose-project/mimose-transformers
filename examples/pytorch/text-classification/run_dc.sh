@@ -14,5 +14,6 @@ python run_glue.py \
   --num_train_epochs 1 \
   --dynamic_checkpoint \
   --warmup_iters 10 \
+  --memory_buffer 0.5 \
   --memory_threshold $1 \
   --overwrite_output_dir 2>&1 | tee train_log/log.train_dc$1_$TASK_NAME.$T

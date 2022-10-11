@@ -13,6 +13,7 @@ python run_qa_beam_search.py \
   --output_dir /tmp/test_squad/ \
   --dynamic_checkpoint \
   --warmup_iters 10 \
+  --memory_buffer 0.5 \
   --memory_threshold $1 \
   --max_seq_length 512 \
   --overwrite_output_dir 2>&1 | tee train_log/log.train_dc$1_xlnet.$T

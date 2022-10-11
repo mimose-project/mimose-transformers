@@ -5,7 +5,7 @@ set -x
 T=$(date +%m%d%H%M)
 
 BUFFER="${2:-2}"
-WARMUP="${3:-20}"
+WARMUP="${3:-10}"
 
 python run_translation.py \
     --model_name_or_path t5-base \

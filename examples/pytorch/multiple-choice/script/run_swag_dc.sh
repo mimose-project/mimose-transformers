@@ -21,7 +21,8 @@ python3 run_swag.py \
   --num_train_epochs 1 \
   --per_device_train_batch_size 16 \
   --dynamic_checkpoint \
-  --warmup_iters 30 \
+  --warmup_iters 10 \
+  --memory_buffer 0.8 \
   --memory_threshold $1 \
   --max_input_size 142 \
   --min_input_size 40 \

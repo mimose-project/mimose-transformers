@@ -13,6 +13,7 @@ python run_qa.py \
   --doc_stride 128 \
   --dynamic_checkpoint \
   --warmup_iters 10 \
+  --memory_buffer 0.5 \
   --memory_threshold $1 \
   --output_dir /tmp/test_squad/ \
   --overwrite_output_dir 2>&1 | tee train_log/log.train_dc$1_womax.$T
