@@ -2,12 +2,14 @@
 
 - V100
 - CUDA 11.3, cudnn 8.3
-- Python 3.8
+- Python 3.9
 - torch 11.1
 
 ## Install
 
-```pip install ./```
+1. ```pip install ./env/torch-1.11.0a0+git249d049-cp39-cp39-linux_x86_64.whl```
+
+2. ```pip install ./```
 
 ## Getting Started
 
